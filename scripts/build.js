@@ -6,7 +6,7 @@ const options = {
   entryPoints: ["./src/index.js"],
   minify: true,
   bundle: true,
-  outfile: "./dist/index.js",
+  outfile: "./dist/index.cjs",
   target: "node14.11",
   platform: "node",
   format: "cjs",
