@@ -13,7 +13,9 @@ const options = {
   define: {
     "import.meta.url": "import_meta_url",
   },
-  inject: [path.join(process.cwd(), "scripts", "import-meta-url.js")],
+  inject: [
+    path.join(process.cwd(), "scripts", "injects", "import-meta-url.js"),
+  ],
 };
 
 if (process.env.WATCH === "true") {
